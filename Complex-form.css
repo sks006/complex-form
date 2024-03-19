@@ -1,0 +1,122 @@
+/** @format */
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container {
+     width: 700px;
+     min-height: 300px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 2rem auto;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0 1px 5px 0;
+     border-radius: 0.25rem;
+}
+
+/* header section :start */
+
+.header {
+     width: 100%;
+     min-height: 50px;
+     background-color: rgb(48, 47, 47);
+
+     text-align: left;
+     padding: 10px 10px;
+     border-top-left-radius: 0.25rem;
+     border-top-right-radius: 0.25rem;
+}
+.header h1 {
+     font-size: 24px;
+     color: white;
+     font-weight: 500;
+}
+/* header section :stop */
+
+/* from section start */
+
+.form_section {
+     width: 100%;
+     padding: 1rem 2rem;
+}
+
+/* from section stop */
+
+/* inline form start */
+
+.inline_form {
+     display: flex;
+     margin-top: 1rem;
+     gap: 2rem;
+     align-items: center;
+     justify-content: space-between;
+}
+
+/* inline form stop */
+
+/* form group :start */
+
+.form_group {
+     width: 100%;
+     margin-bottom: 2rem;
+}
+
+.form_group label {
+     display: block;
+     font-size: 18px;
+     color: #333;
+}
+.form_group input[type="text"],
+.form_group input[type="email"],
+.form_group input[type="tel"],
+.form_group input[type="password"],
+.form_group select,
+.form_group textarea {
+     width: 100%;
+     padding: 0.5rem;
+     outline: none;
+     border: 1px solid #ddd;
+     margin-top: 0.5rem;
+     font-family: Arial, Helvetica, sans-serif;
+}
+/* form group :stop */
+.inline_radio_group {
+     display: flex;
+}
+.inline_radio {
+     display: flex;
+     gap: 0.5rem;
+     align-items: center;
+     margin-top: 0.5rem;
+     margin-right: 2rem;
+}
+
+.bio {
+     height: 120px;
+     resize: none;
+}
+.btn {
+     padding: 0.5rem 1rem;
+     border: none;
+     outline: none;
+     background-color: transparent;
+     font-size: 0.9rem;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+.btn:hover {
+     cursor: pointer;
+}
+.btn-group-reset {
+     border: 2px solid red;
+     border-radius: 0.25rem;
+     color: rgb(243, 243, 243);
+     background-color: #141414;
+}
+.btn-group-submit {
+     background-color: #000;
+     color: #fff;
+     border: 2px solid #000;
+     border-radius: 0.25rem;
+}
